@@ -7,7 +7,7 @@ Contoh implementasinya adalah pada Raspberry Pi, yang tidak mengizinkan untuk se
 - Ganti **username** dengan username Anda, username yang sama yang digunakan pada email UNY milik Anda.
 - Ganti **sandi** dengan kata sandi yang Anda gunakan untuk membuka email UNY milik Anda.
 - Letakkan file tersebut ke dalam direktori /etc/wpa_supplicant.
-- Jalankan perintah `wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf` untuk menginisialisasikan konfigurasi ke interface. Nama interface wlan0 bisa saja berbeda, tergantung hardware mana yang akan digunakan untuk terhubung ke eduroam, untuk memastikan bisa cek dengan perintah `iwconfig`.
+- Jalankan perintah `wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf` untuk menginisialisasikan konfigurasi ke interface. Nama interface `wlan0` bisa saja berbeda, tergantung hardware mana yang akan digunakan untuk terhubung ke eduroam, untuk memastikan bisa cek dengan perintah `iwconfig`.
 - Restart daemon dhcpcd atau reboot saja.
 
 ### Selamat berselancar menggunakan jaringan eduroam UNY
